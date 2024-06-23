@@ -7,7 +7,8 @@ public class App
 {  
     public static void main( String[] args ) throws InterruptedException, IOException, AWTException 
     {
-       /* automate a=new automate();
+       /* Automation Test 01 - UI Testing*/
+        automate a=new automate();
         a.takeInputs(
         "https://www.getcalley.com/",
         "https://www.getcalley.com/calley-call-from-browser/",
@@ -23,8 +24,9 @@ public class App
         );
         a.main_chrome_urls_function();
         a.main_firefox_urls_function();
-        a.main_safari_urls_function(); */ 
+        a.main_safari_urls_function();  
         
+        /* Automation Test 02 - Functional Testing*/
 
         uploadfile up=new uploadfile();
         up.main_run();
